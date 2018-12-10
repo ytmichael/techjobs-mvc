@@ -45,28 +45,28 @@
             <table th:each="job :${jobs}" th:class="job-listing">
 
                 <tr>
-                    <td>Position Type</td>
-                    <td th:text="${job['position type']}">Position Type</td>
+                    <th>Position Type</th>
+                    <th th:text="${job['position type']}">Position Type</th>
 
                 </tr>
                 <tr>
-                    <td>Name</td>
-                    <td th:text="${job.name}">Name</td>
+                    <th>Name</th>
+                    <th th:text="${job.name}">Name</th>
 
                 </tr>
                 <tr>
-                    <td>Employer</td>
-                    <td th:text="${job.employer}">Employer</td>
+                    <th>Employer</th>
+                    <th th:text="${job.employer}">Employer</th>
 
                 </tr>
                 <tr>
-                    <td>Location</td>
-                    <td th:text="${job.location}">Location</td>
+                    <th>Location</th>
+                    <th th:text="${job.location}">Location</th>
 
                 </tr>
                 <tr>
-                    <td>Core Competency</td>
-                    <td th:text="${job['core competency']}">Core Competency</td>
+                    <th>Core Competency</th>
+                    <th th:text="${job['core competency']}">Core Competency</th>
 
                 </tr>
 
